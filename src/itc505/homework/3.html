@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Font Delivery</title>
+    <style>
+	@import url('https://fonts.cdnfonts.com/css/horbelly');
+        /* Add some basic CSS for readability */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        /* Add the @font-face rule to specify the font source */
+        @font-face {
+            font-family: 'UniqueFont'; /* Name your font */
+            src: url('uniquefont.woff2') format('woff2'); /* Specify the font file path and format */
+        }
+
+        /* Use the unique font for the text */
+        .unique-text {
+            font-family: 'Horbelly', sans-serif;
+            font-size: 24px; /* Adjust the font size as needed */
+        }
+    </style>
+</head>
+<body>
+    <h1>Web Font Delivery</h1>
+    <p>
+        There are various techniques for providing fonts to a user's web browser when developing a website. One strategy involves the use of web fonts, which enables the retrieval of fonts from a server when a webpage is accessed.
+    </p>
+    <p>
+	To use a web font, you have to change it into a format that works well on the web, like WOFF or WOFF2. After that, you can put these font files on a web server, just like you would with images or other stuff. In your website's CSS, you can then say which font to use using something called "@font-face," and this tells the browser where to get that font.
+    </p>
+    <p>
+	When a browser asks for a web page, it also grabs the web font files at the same time, along with all the other stuff needed for the site. This way, the browser has the right fonts to show text with the style you want, and you're not limited to the standard fonts on the user's system.
+
+This method offers a straightforward way to use your chosen fonts online. It can make the page a bit bigger to load, so it's good to use optimization tricks like font subsetting. But overall, web fonts give you a lot of control over how your text looks on the web, which is great for branding and design purposes
+
+    </p>
+
+    <!-- Use the unique font for the text -->
+    <p>
+        Here's some text that uses our unique font:
+        <span class="unique-text">This font style is truly distinctive!</span>
+    </p>
+
+    <!-- You will need to upload 'uniquefont.woff2' to your web server for this to work -->
+
+</body>
+</html>
