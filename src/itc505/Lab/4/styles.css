@@ -1,0 +1,57 @@
+body {
+  background-color: #E6E6FA;;
+  font-family: Verdana, sans-serif; 
+  color: #444444; 
+  padding: 20px; 
+}
+
+h1 {
+  font-size: 28px; 
+  font-weight: bold;
+  margin-bottom: 10px; 
+  color: #003366; 
+}
+
+h2 {
+  font-family: Britannic Bold, Serif;	
+  font-size: 24px; 
+  font-weight: bold;
+  margin-top: 20px; 
+  color: #990000;
+}
+
+p {
+  font-size: 18px; 
+  line-height: 1.6; 
+  margin-bottom: 10px;
+}
+
+b {
+  font-weight: bold; 
+}
+
+
+#addendum {
+  font-family: Cascadia Code Light, Monospace;
+  color: #444444; 
+  padding: 15px;
+  margin-top: 20px;
+}
+
+#addendum h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #800080; 
+  margin-top: 20px; 
+}
+
+#addendum p {
+  font-size: 16px; 
+  line-height: 1.6;
+  margin-bottom: 10px; 
+  color: #333333;
+}
+
+#addendum b {
+  font-weight: bold;
+}
