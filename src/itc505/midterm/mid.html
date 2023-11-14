@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="midpro.css">
+    <title>Choose Your Own Adventure</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Choose Your Own Adventure</h1>
+        </div>
+    </header>
+    <div id="story">
+        <p>Welcome to the thrilling adventure!</p>
+    </div>
+    <div id="choices"></div>
+    <div id="image-container">
+        <img id="story-image" src="default_image.jpg" alt="Adventure Image">
+    </div>
+    <script src="midpro.js"></script>
+	
+	<button onclick="toggleAddendum()">Show Addendum</button>
+
+	<section id="addendum" style="display: none;">
+        <h2>Addendum</h2>
+
+        <p><strong>Process and Creative Choices:</strong> Creating this 'Choose Your Own Adventure' game was an exciting journey. I started by sketching out the storyline, identifying key decision points, and envisioning the various possible endings. This planning phase was crucial in maintaining a coherent and engaging narrative.</p>
+
+        <p><strong>Creative Choices:</strong> In terms of creative choices, I carefully selected images for each stage to enhance the visual experience and evoke emotions corresponding to the storyline.For instance,in this adventure the player can make many choices such as he can follow the whispers/stay on the path/leave the forest, he can also light the torch/feel his way through/go back, the user can retire/explore more, the player can fight with the goblin/he can he can take a ride on the unicorn etc are choices given for user.
+		                                      The decision to incorporate diverse and visually appealing endings aimed to provide players with a sense of accomplishment or intrigue.</p>
+
+        <p><strong>Challenges Faced and Solutions:</strong> One challenge I encountered was ensuring a smooth transition between stages without disrupting the narrative flow. To address this, I implemented a robust JavaScript function to update the page dynamically based on user choices, maintaining a seamless and immersive experience.</p>
+
+        <p><strong>Insights Gained:</strong> Throughout this project, I gained insights into the importance of planning, both in terms of storyline and technical implementation. The iterative process of testing and refining choices, consequences, and visual elements contributed to a more polished end product.</p>
+
+        <p>Additionally, the project underscored the significance of user experience. Implementing clear buttons, a consistent layout, and visually appealing images all contribute to an engaging and enjoyable adventure.</p>
+
+        <p><strong>Creative Choices in Addendum:</strong> To enhance the overall presentation of the project, I included the addendum directly within the HTML. This choice aims to provide a comprehensive view of the creative process, challenges faced, and insights gained, all seamlessly integrated into the webpage.</p>
+
+        <p>This 'Choose Your Own Adventure' game not only showcases technical skills in HTML, CSS, and JavaScript but also reflects an understanding of storytelling, user interaction, and optimization for a seamless web experience.</p>
+    </section>
+
+    <script>
+    // Function to toggle addendum visibility
+    function toggleAddendum() {
+        const addendumSection = document.getElementById("addendum");
+        addendumSection.style.display = (addendumSection.style.display === "none") ? "block" : "none";
+    }
+
+    // Initial setup to show addendum
+    toggleAddendum();
+    </script>	
+</body>
+</html>
