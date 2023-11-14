@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab 6 - Holy Grail Layout</title>
+  <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+
+  <header>    
+    <h1 class="title">Lab 6 - Holy Grail Layout</h1>
+  </header>
+
+  <div class="container">
+    <nav>
+      <ul>
+        <li><a href="#"><u>Menu</u></a></li>
+        <li><a href="#">Handbags</a></li>
+        <li><a href="#">Slingbags</a></li>
+        <li><a href="#">Wallets</a></li>
+      </ul>
+    </nav>
+
+    <main id="content">
+      <!-- Add record-Taking App Section -->
+      <div class="record">
+        <h2>Record</h2>
+        <ul id="record-list"></ul>
+      </div>
+      <div class="record-form">
+        <h2>Color Adapatability</h2>
+        <form id="record-form">
+          <textarea id="record-content" placeholder="Choose a Color"></textarea>
+          <button id="header-color-button" type="button">Change Header Text Color</button>
+        </form>
+     </div>
+    </main>
+
+    <aside id="advertisement">
+      <a href="https://www.amazon.com/sspa/click?ie=UTF8&spc=MTo3OTI0NjM1MzgwNDc0NjgxOjE2OTk4MzczMzk6c3BfYXRmOjMwMDA4MTgyMTExMjUwMjo6MDo6&url=%2FMontana-West-Handbags-Satchel-Compartments%2Fdp%2FB09HZX4RCS%2Fref%3Dsr_1_2_sspa%3Fcrid%3D2ANIXZMO7DQH7%26keywords%3Dhandbags%2Bfor%2Bwomen%2B2023%26qid%3D1699837338%26sprefix%3D%252Caps%252C126%26sr%3D8-2-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1" target="_blank">
+        <img src="https://m.media-amazon.com/images/I/71lSgPMKfTL._AC_SX679_.jpg" alt="Advertisement" height="300" width="200">
+      </a>
+    </aside>
+  </div>
+
+  <footer>
+    <div class="addendum">
+      <h2>Addendum</h2>
+      <p>
+        The primary goal of this lab was to craft a web page incorporating the Holy Grail layout using CSS grid. 
+		Additionally, a feature allowing users to dynamically alter the header text color(So color of the text present in the header which is the "Lab 6 - Holy Grail Layout" color is changed), termed Color Adaptability, was seamlessly integrated.
+      </p>
+      <h3>Overview of the Solution</h3>
+      <p>
+        The Holy Grail layout was successfully realized through the implementation of CSS grid, resulting in a visually captivating and responsive design. 
+		The webpage encompasses a header adorned with a background image, a central content area housing the Color Adaptability feature, a side menu, an advertisement section, and a footer.
+      </p>
+      <!-- Repeat for other sections if needed -->
+      <h3>Difficulties Encountered and Solutions</h3>
+      <ul>
+        <li>
+          <strong>Challenges in Background Image Styling:</strong>
+          <br>Difficulty: Ensuring optimal text readability while incorporating a background image in the header.
+          <br>Solution: Adjusting various background properties such as size, position, and text color to achieve a harmonious visual balance in the header.
+        </li>
+        <li>
+          <strong>Implementation of Color Adaptability Feature:</strong>
+          <br>Difficulty: Integrating a mechanism for dynamic color changes in the header text.
+          <br>Solution: Employing JavaScript to capture user input and facilitate real-time updates to the header text color, thereby realizing the Color Adaptability feature.
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="todo.js"></script> 
+</body>
+</html>
